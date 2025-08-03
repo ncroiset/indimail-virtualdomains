@@ -453,6 +453,7 @@ change first line in indimail-mta-x/conf-sysconfdir to /usr/local/etc/indimail
 change first line in indimail-mta-x/conf-servicedir to /usr/local/etc/sv
 
 % cd daemontools-x
+% ./default.configure
 % make -s [DESTDIR=staging_directory]
 % sudo make -s install [DESTDIR=staging_directory]
 % cd ..
